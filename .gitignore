@@ -1,0 +1,24 @@
+# --- Local dev artifacts (do NOT deploy) ---
+_screenshots/
+_server.log
+_srv.log
+_srv.err.log
+stdout.txt
+stderr.txt
+server.pid
+*.pid
+
+# --- Temporary one-off verification / screenshot scripts ---
+_verify_*.py
+_shot_*.py
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
