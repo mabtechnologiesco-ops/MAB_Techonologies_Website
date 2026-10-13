@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """Checks all local href/src targets and in-page anchors across HTML files."""
 import os, re, io, sys
+from urllib.parse import unquote
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 errors = []
@@ -44,6 +45,7 @@ def check_target(source, raw):
     page = page.split("?")[0]
     if page == "":
         page = source
+    page = unquote(page)  # decode %20 -> space etc. before checking the filesystem
     target_path = os.path.join(BASE, page)
     if not os.path.exists(target_path):
         errors.append(f"{source}: missing file {page} (from {raw})")

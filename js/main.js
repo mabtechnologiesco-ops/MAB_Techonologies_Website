@@ -96,23 +96,9 @@
         }
     });
 
-    /* ---------- Scroll-reveal (progressive: content visible without JS) ---------- */
-    var revealTargets = document.querySelectorAll(
-        ".service-card, .feature-item, .pricing-card, .step-card, .project-card, .value-card"
-    );
-    if ("IntersectionObserver" in window && !reducedMotion && revealTargets.length) {
-        var observer = new IntersectionObserver(function (entries) {
-            entries.forEach(function (entry) {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add("is-visible");
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.1, rootMargin: "0px 0px -40px 0px" });
-        revealTargets.forEach(function (el) { observer.observe(el); });
-    } else {
-        revealTargets.forEach(function (el) { el.classList.add("is-visible"); });
-    }
+    /* ---------- Scroll-reveal animation disabled ----------
+       All content is shown immediately (no fade/slide on scroll). The previous
+       IntersectionObserver that added an .is-visible class has been removed. */
 
     /* ---------- Quote form ---------- */
     var form = document.getElementById("quoteForm");
