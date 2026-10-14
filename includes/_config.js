@@ -61,13 +61,13 @@ window.MABConfig = {
     // ---- Pricing packages ---- (all prices in US dollars, "$")
     pricing: {
         currency: "$",
-        base: "210",
+        base: "217",
         starter: {
             name: "Starter Website",
             slug: "starter-website",
             promo: true,
-            promoPrice: "125",
-            fullPrice: "210",
+            promoPrice: "130",
+            fullPrice: "217",
             suitableFor: "Small businesses, startups, freelancers, and local service providers.",
             features: [
                 "Up to 3 pages",
@@ -82,7 +82,7 @@ window.MABConfig = {
                 "Website deployment",
             ],
             cta: { label: "Choose Starter", preselect: "starter-website" },
-            note: "Save $85 — limited-time promotional price.",
+            note: "Save $87 — limited-time promotional price.",
         },
         business: {
             name: "Business Website",
