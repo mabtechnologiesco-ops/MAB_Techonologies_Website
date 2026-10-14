@@ -319,7 +319,7 @@
         .pricing-card .price .price-was { font-size: 1.5rem; font-weight: 700; opacity: 0.55; margin-right: 12px; }
         .pricing-card .price .price-now { font-size: 3rem; font-weight: 900; opacity: 1; }
         .pricing-card .price .price-suffix { font-size: 1rem; font-weight: 500; opacity: 0.7; }
-        /* Additional-service pricing groups (Website Dev, Apps, AI, Add-ons, Maintenance) */
+        /* Additional-service pricing groups (AI, Add-ons, Maintenance) */
         .pricing-group { margin-top: 64px; }
         .pricing-group:first-child { margin-top: 8px; }
         .pricing-group-head { margin-bottom: 32px; }

@@ -221,8 +221,8 @@
         mount.innerHTML = cards.join("");
     }
 
-    // Render the additional-service groups (Website Development, Web Apps,
-    // Mobile, AI, Additional Services, Maintenance) as labelled subsections.
+    // Render the additional-service groups (AI, Additional Services,
+    // Maintenance) as labelled subsections.
     function renderPricingGroups() {
         var mount = document.getElementById("pricing-groups-mount");
         if (!mount) return;
