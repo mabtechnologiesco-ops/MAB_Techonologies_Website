@@ -17,18 +17,18 @@ window.MABConfig = {
         currencyDisplay: "symbol", // "symbol" => "$2,500"
     },
 
-    // ---- Contact (placeholder — replace with real details) ----
+    // ---- Contact ----
     contact: {
         location: "Freetown, Sierra Leone",
         email: "mabtechnologies.co@gmail.com",        // TODO: replace with real email
-        phone: "+232 0000 0000",              // TODO: replace with real phone
-        whatsapp: "+232 0000 0000",           // TODO: replace with real WhatsApp
+        phone: "+23278968909",
+        whatsapp: "+23270451369",
         address: "Freetown, Sierra Leone",    // TODO: replace with street address
         contactNote: "Get in touch with MAB Technologies to discuss your project.",
         contactOptions: [
             { id: "email", label: "Email", value: "mabtechnologies.co@gmail.com" },
-            { id: "whatsapp", label: "WhatsApp", value: "+232 0000 0000" },
-            { id: "phone", label: "Phone", value: "+232 0000 0000" },
+            { id: "whatsapp", label: "WhatsApp", value: "+23270451369" },
+            { id: "phone", label: "Phone", value: "+23278968909" },
             { id: "visit", label: "Visit us", value: "Freetown, Sierra Leone" },
         ],
     },
